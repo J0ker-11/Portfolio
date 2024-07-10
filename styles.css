@@ -47,6 +47,7 @@ nav a {
     display: block;
     justify-content: center;
     align-content: center;
+    padding-right: 10px;
 }
 
 .line1 {
@@ -318,5 +319,5 @@ button {
 /* LAPTOP SCREEN */
 
 @media (max-width: 1024px) {
-    
+
 }
