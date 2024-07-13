@@ -270,7 +270,9 @@ textarea:focus-within {
 }
 
 button {
+    width: 120px;
     background: #27ae60;
+    border: none;
     border-color: black;
     border-radius: 8px;
     cursor: pointer;
@@ -330,6 +332,11 @@ button {
 
 @media (min-width: 1024px) {
 
+    .nav-bar ul {
+        gap: 25px;
+    }
+
+
     .container {
         max-width: 90%;
         margin: 1em auto;
@@ -386,6 +393,4 @@ button {
 .form {
     margin-top: 100px;
 }
-
-
-} */
+} 
