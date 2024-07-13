@@ -87,7 +87,6 @@ nav a {
 .details-img img{
     width: 250px;
     height: 250px;
-    background: gray;
     border-radius: 50%;
 }
 
@@ -318,6 +317,64 @@ button {
 
 /* LAPTOP SCREEN */
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 
+    .container {
+        max-width: 90%;
+        margin: 1em auto;
+    }
+
+    .logo {
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .nav-bar {
+        font-size: 25px;
+    }
+
+    
+.details {
+    flex-direction: row;
+    margin-top: 150px;
+    gap: 150px;
 }
+
+.details-img img{
+    width: 400px;
+    height: 400px;
+}
+
+.details-content h2 {
+    font-size: 40px;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about-text p {
+    max-width: 90%;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+
+.write-ups {
+    max-width: 90%;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.form {
+    margin-top: 100px;
+}
+
+
+} */
